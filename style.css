@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    position: relative;
+    background-color: rgb(85, 85, 85);
+}
+.titlewrapper{
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    color: rgb(91, 91, 91);
+    font-size: 125px;
+    font-family: sans-serif;
+    font-weight: 500;
+    display: inline-block;
+}
+.text{
+    color: rgb(91, 91, 91);
+    font-family: sans-serif;
+    font-size: 75px;
+    display: inline-block;
+}
+.mem{
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    width: 25%;
+    text-align: center;
+}
+.bg{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+}
+.memform{
+    margin: 60px auto;
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.meminput{
+    width: 60%;
+    height: 50%;
+    display: block;
+    font-size: 20px;
+    padding: 5px;
+    background-color: rgb(138, 127, 105);
+}
+.meminput::placeholder{
+    color: rgb(112, 103, 86);
+}
+.membutton{
+    width: 30%;
+    height: 50%;
+    font-size: 20px;
+    background-color: rgb(138, 127, 105);
+    color: rgb(112, 103, 86);
+}
+main{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+}
