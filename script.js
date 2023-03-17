@@ -2,7 +2,7 @@ const mems=document.querySelectorAll('.mem')
 const form=document.querySelector('.memform')
 const input=document.querySelector('.meminput')
 const database=[
-'Амогус', 'Артём, ты уроки сделал?', 'А ты считаешь гемы', 'Бомж', "Бравл старс бравл старс - это новый бравл старс"
+"ааа", "аааа", "ава", "ага", "ае", "Аж до слёз", 'Амогус', 'Артём, ты уроки сделал?', 'А ты считаешь гемы', 'Бомж', "Бравл старс бравл старс - это новый бравл старс"
 ]
 form.addEventListener('submit', function(event){
     event.preventDefault()
